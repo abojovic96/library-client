@@ -1,0 +1,28 @@
+.addbook {
+    display: inline-block;
+    width: 230px;
+    height: 390px;
+    box-shadow: 0 0 20px #aaa;
+    margin: 25px;
+    padding: 10px 10px 0px 10px;
+    vertical-align: top;
+    background: white;
+    transition: transform .1s;
+    overflow: hidden;
+}
+
+.addbook:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #008080;
+}
+
+.h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #008080;
+}
+
+.h2 {
+    text-align: center;
+    color: #008080;
+}

@@ -1,0 +1,38 @@
+.book {
+    display: inline-block;
+    width: 230px;
+    height: 390px;
+    box-shadow: 0 0 20px #aaa;
+    margin: 25px;
+    padding: 10px 10px 0px 10px;
+    vertical-align: top;
+    background: white;
+    transition: transform .1s;
+    overflow: hidden;
+}
+
+.cover {
+    border: 2px solid gray;
+    height: 80%;
+    overflow: hidden;
+    object-fit: fill;
+  }
+  
+  .cover img {
+    width: 100%;
+  }
+  
+  .book p {
+    margin-top: 12px;
+    font-size: 20px;
+  }
+  
+  .book .author {
+    font-size: 15px;
+  }
+
+  .book:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #008080;
+  };  
+
